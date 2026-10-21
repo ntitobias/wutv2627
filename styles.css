@@ -1,4 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffcc;
+}
+
 h2 {
     background-color: darkblue;
     color: white;
+}
+
+.warning {
+    background-color: darkred;
+    font-weight: bold;
+}
+
+.sans-serif {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.serif {
+    font-family: "Times New Roman", Georgia, serif;
 }
