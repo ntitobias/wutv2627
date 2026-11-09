@@ -8,6 +8,10 @@ h2 {
     color: white;
 }
 
+.headerlink{
+    color: cyan;
+}
+
 .warning {
     background-color: darkred;
     font-weight: bold;
