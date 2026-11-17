@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #2e3a59;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* 1. Gör nav-baren till en Flex-förälder */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Trycker loggan till vänster och länkarna till höger */
+  align-items: center;            /* Centrerar dem snyggt i höjdled */
+  background-color: #1f2430;
+  padding: 15px 30px;
+}
+
+/* 2. Gör även listan med länkar till en Flex-förälder! */
+.nav-links {
+  display: flex;
+  gap: 20px;        /* Modernt avstånd mellan länkarna */
+  list-style: none; /* Tar bort de fula svarta punkterna */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #4eacc5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-row {
+  display: flex;
+  gap: 20px;        /* Mellanrum mellan korten */
+  flex-wrap: wrap;  /* Viktigt! Gör att korten hoppar ned om skärmen blir smal */
+}
+
+.card {
+  flex: 1;          /* Gör att båda korten delar lika på bredden (50/50) */
+  min-width: 250px; /* Gör att korten aldrig blir smalare än 250px innan de bryter rad */
+  background-color: #2e3a59;
+  padding: 20px;
+  border-radius: 8px;
+}
