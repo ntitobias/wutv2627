@@ -24,7 +24,7 @@ function setup() {
 
 function draw() {
   background(50); // Mörkgrå asfalt
-
+  
   // --- RITA VÄGEN (syns alltid) ---
   noStroke();
   fill('forestgreen');

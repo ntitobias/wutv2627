@@ -1,0 +1,77 @@
+/* --- ÖVNING 1: Klassisk Navbar --- */
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list-1 {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* --- ÖVNING 2: Centrerad Header --- */
+.header-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-list-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* --- ÖVNING 3: Tre-delad Header --- */
+.header-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.nav-list-3 {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* --- ÖVNING 4: Sidfot --- */
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.legal-links {
+  display: flex;
+  gap: 16px;
+}

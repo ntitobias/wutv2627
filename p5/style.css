@@ -1,7 +1,18 @@
 html, body {
   margin: 0;
   padding: 0;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
 }
+
 canvas {
   display: block;
+  margin: auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
 }
